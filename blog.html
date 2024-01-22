@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ajay chaudhary web devleoper</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="slidebar">
+            <nav>
+                <ul>
+                    <li><a href="/">Home </a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/service.html">Services </a></li>
+                    <li><a href="/blog.html">Blog </a></li>
+                    <li><a href="/contact.html">Conatct </a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamb">
+                <img  class= "ham"       src="./ham.png.png" alt=""width= "26" >
+                <img  class= "cross" src=".//cross.png.png" alt=""  width="26">
+            <div class="blogcontainer">
+                <div class="heading">
+                    <h1>Blogs by Ajay - the legend</h1>
+                    <p> ➾ Here you will gwet all type of study material with source codes and hand written notes!
+                        <span id="para">
+                            ... Lorem ipsum dolor sit amet consectetur adipisicing elit. At deleniti veniam, ea
+                            doloribus itaque eum maiores perspiciatis error eligendi quis quasi, placeat autem omnis nam
+                            reprehenderit accusantium iure odio doloremque eos neque expedita fugiat. Debitis corporis a
+                            magni dolorum rem cumque cum incidunt veritatis explicabo!lorem30
+
+                        </span><br>
+                        <button id="btn" onclick="toggleHide()">Read more...</button>
+                    <div class="blogitem">
+                        <h2>Learn Java Script in - fun way!</h2>
+                        <p> ➾ full source code Free</p>
+
+                        <span id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, repellendus.
+                            Porro doloremque dolor modi provident, impedit exercitationem hic, quod voluptas architecto
+                            dolores asperiores atque vero assumenda vitae ea. Totam nostrum corrupti error laboriosam
+                            atque?</span>
+                        <button id="btn1" onclick="Hide()">Read more...</button>
+
+
+                    </div>
+
+                    <div class="blogitem">
+                        <h2>Learn HTML Easily!.</h2>
+                        <p> ➾ HTML full source code Free</p>
+                        <span id="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, repellendus.
+                            Porro doloremque dolor modi provident, impedit exercitationem hic, quod voluptas architecto
+                            dolores asperiores atque vero assumenda vitae ea. Totam nostrum corrupti error laboriosam
+                            atque?</span>
+                        <button id="btn2" onclick="tHide()">Read more...</button>
+
+                    </div>
+                    <div class="blogitem">
+                        <h2>CSS Source codes!.</h2>
+                         ➾ Click on read more for CSS source codes</p>
+                        <span id="para3"><p></p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, repellendus.
+                            Porro doloremque dolor modi provident, impedit exercitationem hic, quod voluptas architecto
+                            dolores asperiores atque vero assumenda vitae ea. Totam nostrum corrupti error laboriosam
+                            atque?</span>
+                        <button id="btn3" onclick="hHide()">Read more...</button>
+
+                    </div>
+
+                </div><script src="script.js"></script>
+
+                <script>
+                    function toggleHide() {
+                        let btn = document.getElementById('btn');
+                        let para = document.getElementById('para');
+
+                        if (para.style.display != 'none') {
+                            para.style.display = 'none';
+                        }
+                        else {
+                            para.style.display = 'block';
+                        }
+                    }
+
+
+
+                    function Hide() {
+                        let btn = document.getElementById('btn1');
+                        let para = document.getElementById('para1');
+
+                        if (para.style.display != 'none') {
+                            para.style.display = 'none';
+                        }
+                        else {
+                            para.style.display = 'block';
+                        }
+                    }
+                    function tHide() {
+                        let btn = document.getElementById('btn2');
+                        let para = document.getElementById('para2');
+
+                        if (para2.style.display != 'none') {
+                            para2.style.display = 'none';
+                        }
+                        else {
+                            para2.style.display = 'block';
+                        }
+                    }
+                    function hHide() {
+                        let btn = document.getElementById('btn3');
+                        let para = document.getElementById('para3');
+
+                        if (para3.style.display != 'none') {
+                            para3.style.display = 'none';
+                        }
+                        else {
+                            para3.style.display = 'block';
+                        }
+                    }
+
+
+                </script>

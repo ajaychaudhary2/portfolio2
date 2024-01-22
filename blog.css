@@ -1,0 +1,115 @@
+
+
+.blogcontainer{
+   margin-left: 18rem;
+}
+.heading h1{
+    margin: 23px;
+    font-size: 3rem;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.heading p{
+    margin: 15px;
+    font-size: 1.5rem;
+    
+    font-family: 'Ysabeau SC', sans-serif;
+    
+}
+#btn{
+    padding: 4px;
+    margin: 4px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+ #btn:hover{
+    color: black;
+    background-color: aliceblue;
+    cursor: pointer;
+ }
+ #btn1:hover{
+    color: black;
+    background-color: aliceblue;
+    cursor: pointer;
+ }
+ #btn2:hover{
+    color: black;
+    background-color: aliceblue;
+    cursor: pointer;
+ }
+ #btn3:hover{
+    color: black;
+    background-color: aliceblue;
+    cursor: pointer;
+ }
+ #para{
+    margin: 15px;
+    font-size: 1.5rem;
+    
+    font-family: 'Ysabeau SC', sans-serif;
+    display: none;
+ }
+ #para1{
+    margin: 15px;
+    font-size: 1.5rem;
+    
+    font-family: 'Ysabeau SC', sans-serif;
+    display: none;
+ }
+ #para2{
+    margin: 15px;
+    font-size: 1.5rem;
+    
+    font-family: 'Ysabeau SC', sans-serif;
+    display: none;
+ }
+ #para3{
+    margin: 15px;
+    font-size: 1.5rem;
+    
+    font-family: 'Ysabeau SC', sans-serif;
+    display: none;
+ }
+ .blogitem{
+    margin: 15px;
+    font-size: 1.5rem;
+    
+    font-family: 'Ysabeau SC', sans-serif;
+    
+ }
+ #btn1{
+    padding: 4px;
+    margin: 4px;
+   
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    font-family: 'Ysabeau SC', sans-serif;
+
+ }
+ #btn2{
+    padding: 4px;
+    margin: 4px;
+   
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    font-family: 'Ysabeau SC', sans-serif;
+
+ }
+ #btn3{
+    padding: 4px;
+    margin: 4px;
+   
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    font-family: 'Ysabeau SC', sans-serif;
+
+ }

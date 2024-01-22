@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ajay chaudhary web devleoper</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="intro.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="slidebar">
+            <nav>
+                <ul>
+                    <li><a href="/">Home </a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/service.html">Services </a></li>
+                    <li><a href="/blog.html">Blog </a></li>
+                    <li><a href="/contact.html">Conatct </a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamb">
+                <img  class= "ham"       src="./ham.png.png" alt=""width= "26" >
+                <img  class= "cross" src=".//cross.png.png" alt=""  width="26">
+            </div>
+            <div class="intro">
+                <h2>About me</h2>
+                <p> I am a passionate 19-year-old, finds joy in a dynamic blend of exercise, cricket, and web
+                    development discovered an affinity for web development. Fascinated by the digital world, I immerses
+                    himself in coding languages, design principles, and user experience. I am curiosity and creativity
+                    intertwine as he builds websites, exploring the art of crafting interactive and visually appealing
+                    online experiences.Outside of his fitness, cricket, and web development endeavors, I radiates
+                    enthusiasm for life. I embraces every opportunity to connect with others, always open to new
+                    experiences and perspectives. Whether it's engaging in meaningful conversations, exploring new
+                    places, or immersing himself in different cultures, I have an insatiable curiosity that fuels his
+                    personal growth.</p>
+                <h3>My Skills</h3>
+                <div class="skills-item">HTML ➠ <div class="skill"></div>
+                </div>
+                <div class="skills-item">CSS ➠ <div class="skill1"></div>
+                </div>
+                <div class="skills-item">JS ➠ <div class="skill2"></div>
+                </div>
+                <div class="skills-item">Py ➠ <div class="skill3"></div>
+                </div>
+
+                <div class="clint">
+                    <dev class="heading">
+                        <h3>My Thoughts </h3>
+                        <h4>Costumer Satisfaction Is My First Priority</h4>
+                        <span id="para5">  Client satisfaction is a crucial aspect of web development that directly impacts the success of a project. In the realm of web development, client satisfaction refers to meeting and exceeding the expectations and needs of the client throughout the entire development process and even after project completion.To ensure client satisfaction, effective communication plays a pivotal role. It is essential to have open and transparent lines of communication with the client, actively listening to their requirements, ideas, and feedback. By understanding their vision and goals, web developers can tailor their efforts to align with the client's expectations.</span>
+                        <button id="btn-about" onclick="toggleHide()"> more..</button>
+                    </dev>
+                </div>
+
+
+
+
+            </div>
+            <script src="script.js"></script>
+            <script>
+                 function toggleHide() {
+                        let btn = document.getElementById('btn-about');
+                        let para5 = document.getElementById('para5');
+
+                        if (para5.style.display != 'none') {
+                            para5.style.display = 'none';
+                        }
+                        else {
+                            para5.style.display = 'block';
+                        }
+                    }
+
+            </script>

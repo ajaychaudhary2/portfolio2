@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Ysabeau+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Source+Code+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Permanent+Marker&family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Yatra+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.slidebar {
+    background-color: #aeaeae;
+    /* width: 16rem; */
+
+    font-family: 'Ysabeau SC', sans-serif;
+    height: 124vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+    border-radius: 2px;
+}
+
+.main {
+    /* background-color: brown; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.slidebar nav {
+    padding: 2.2rem;
+
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 1.8rem;
+    padding: 2rem 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #e1dfdf;
+}
+
+.infocontainer {
+    /* background-color: blanchedalmond; */
+    height: 48vh;
+    width: 80vw;
+    margin: 9.188rem auto;
+    display: flex;
+    font-family: 'Source Code Pro', monospace;
+    justify-content: space-around;
+}
+
+.infopic img {
+
+    height: 48vh;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 2.2rem;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-top: 2rem;
+}
+
+.name {
+    font-size: 2.3rem;
+    font-weight: bold;
+    font-family: 'Ysabeau SC', sans-serif;
+
+}
+
+.about {
+    font-size: 1.8rem;
+    margin-top: 10px;
+    /* font-family: 'Permanent Marker', cursive; */
+    padding: 3px;
+
+}
+
+.moreabout {
+    font-size: 1.4rem;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin-top: 11px;
+}
+
+.button {
+    margin-top: 2.5rem;
+}
+
+.button button {
+    font-family: 'Ysabeau SC', sans-serif;
+
+    padding: 10px;
+    border-radius: 14px;
+
+    font-size: 17px;
+    box-shadow: 1px 2px;
+    font-weight: bold;
+    margin: 0px 7px;
+    cursor: pointer;
+}
+
+.button button:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+footer {
+    background-color: #aeaeae;
+    padding: -1px 5x;
+    color: #040404;
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+
+    padding-bottom: 2px;
+}
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wrapper {
+
+  
+  text-align: center;
+ 
+  margin-top: 33px;
+}
+
+.wrapper .icon {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 16px;
+    width: 18rem;
+    line-height: 57px;
+    font-size: 18px;
+    display: inline-block;
+    align-items: center;
+    box-shadow: 6 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #7c7c7c;
+    margin-right: -48px;
+    height: 3.4rem;
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background-color: #de463b;
+  color: #ffffff;
+}
+.hamb{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+.cross{
+    margin-left: 133px;
+}
+.sidebargo{
+    transform: translate(-450px, 0px);
+    position: absolute;
+    position: absolute;
+}
+
+
+  @media (max-width: 1360px){
+   
+   
+    .infopic{
+        display: none;
+       }
+   
+    .wrapper .icon {width: 2.5rem;
+        width: 2.5rem;
+        height: 2.4rem;
+        font-size: 1rem;
+        line-height: 40px;
+    margin-top: .5rem;}
+  }
+  @media (max-width: 1032px){
+.wrapper .icon {width: 2.5rem;
+    width: 2.5rem;
+    height: 2.4rem;
+    font-size: 1rem;
+    line-height: 40px;
+margin-top: .5rem;}
+    .hello {
+            font-size: 1.2rem;}
+     
+    .name{
+        font-size: 1.3rem;
+    }
+    .about{
+     font-size: 1rem;
+    }   
+    
+    .moreabout{
+        font-size: 1.1rem;
+    }
+ .button button{
+    font-size: 11px;
+ }
+ nav ul li{
+    font-size: 1.1rem;
+ }
+ .cross {
+    margin-left: 98px;
+    margin-top: 4px;}
+
+  }
+  @media (max-width: 519px){
+    
+    .wrapper .icon {width: 2.5rem;
+        width: 2rem;
+        height: 1.9rem;
+        font-size: .8rem;
+        line-height: 33px;
+        margin: 5px;
+    margin-top: .5rem;}
+        
+        .hello {
+                font-size: 1rem;}
+         
+        .name{
+            font-size: 1.1rem;
+        }
+        .about{
+         font-size: .8rem;
+        }   
+        
+        .moreabout{
+            font-size: .9rem;
+        }
+     .button button{
+        font-size: 8px;
+     }
+     nav ul li{
+        font-size: .9rem;
+     }
+     .cross {
+        margin-left: 79px;
+        margin-top: 4px;}
+    
+  }

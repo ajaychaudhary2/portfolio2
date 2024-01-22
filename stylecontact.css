@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+
+  font-family: 'Satisfy', cursive;
+  height: 100vh;
+  margin-left: 13rem;
+}
+
+
+#contactus h1 {
+  font-size: 2.1rem;
+  color: #222222;
+
+  font-family: 'Ysabeau SC', sans-serif;
+  margin-top: 2rem;
+  margin-left: 2.1em;
+  margin-bottom: -35px;
+  text-shadow: 1px 1px 2px;
+}
+
+.contact-items {
+  padding: 24px 40px 5px;
+  font-family: 'Ysabeau SC', sans-serif;
+}
+
+
+.contact-items ::placeholder {
+  font-size: 1rem;
+
+}
+
+.contact-items label {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.contact-items input {
+  width: 47%;
+  padding: 6px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px black;
+  margin-left: 11px;
+}
+
+#btn2 {
+
+  width: 10rem;
+  padding: 3px;
+  margin-top: 25px;
+  font-size: 1.2rem;
+  font-family: monospace;
+  border-radius: 16px;
+  font-family: 'Ysabeau SC', sans-serif;
+  box-shadow: 1px 2px 5px black;
+  margin-left: 19rem;
+  padding-bottom: 6px;
+}
+
+#btn2:hover {
+  cursor: pointer;
+  color: #eee9e9;
+  background-color: #000000;
+}
+
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wrapper {
+
+  padding: 38px;
+  text-align: center;
+  margin-left: -31rem;
+  margin-top: 33px;
+}
+
+.wrapper .icon {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 13px;
+  width: 53px;
+  height: 44px;
+  line-height: 50px;
+  font-size: 22px;
+  display: inline-block;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: #333;
+  text-decoration: none;
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background-color: #de463b;
+  color: #ffffff;
+}
